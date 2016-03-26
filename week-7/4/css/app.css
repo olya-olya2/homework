@@ -72,7 +72,7 @@
 
   background: rgb(41, 77, 0);
 
-  margin: 20px 10px;
+  margin: 20px 0px;
 
 }
 .secondary-item {
@@ -80,5 +80,5 @@
   flex-grow: 1;
 
   background: rgb(41, 77, 0);
-  margin: 20px 10px;
+  margin-left: 40px;
 }
