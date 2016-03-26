@@ -1,3 +1,47 @@
 * {
   box-sizing: border-box;
 }
+.intro {
+  width: 600px;
+  height: 300px;
+
+  background: rgb(196, 231, 154);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.header {
+  width: 150px;
+  height: 30px;
+
+  background: rgb(41, 77, 0);
+  margin: 10px;
+}
+
+.paragraph {
+  width: 300px;
+  height: 50px;
+
+  background: rgb(148, 193, 96);
+
+  margin: 10px;
+
+}
+.items {
+  display: flex;
+  justify-content: center;
+
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+
+  background: rgb(71, 116, 19);
+
+  margin: 10px;`
+}
