@@ -1,3 +1,34 @@
 * {
   box-sizing: border-box;
 }
+
+.intro {
+  width: 700px;
+  height: 300px;
+
+  background: rgb(196, 231, 154);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.header {
+  width: 300px;
+  height: 40px;
+
+  background: rgb(41, 77, 0);
+  margin: 10px;
+}
+
+.paragraph {
+  width: 400px;
+  height: 110px;
+
+  background: rgb(148, 193, 96);
+
+  margin: 10px;
+
+}
