@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: url(../images/bg.jpg) ;
+  background-size: 100%;
+}
+
+.main {
+
+
+}
+
+.navbar {
+	height: 60px;
+
+	display: flex;
+	flex-direction: row;
+	padding: 0 50px;
+
+}
+
+.logo {
+	width: 3%;
+}
+
+.social {
+
+	position: absolute;
+	right: 70px;
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+.icon {
+	width: 40px;
+  height: 40px;
+
+	border: 2px;
+	border-radius: 100%;
+	border-color: #31BAE8;
+}
+
+.facebook{
+  width: 20px;
+  height: 20px;
+
+	position: absolute;
+	right: 150px;
+}
+
+.twitter {
+  width: 10px;
+  height: 10px;
+
+	position: absolute;
+	right: 100px;
+}
+
+.linkedin {
+  width: 10px;
+  height: 10px;
+
+	position: absolute;
+	right: 50px;
+}
+
+.content {
+	width: 1000px;
+	color: #ffffff;
+	padding: 0 50px;
+}
+
+.title {
+
+	font-size: 90px;
+
+	border-bottom: 4px;
+	border-color: #ffffff;
+}
+
+.description {
+	width: 700px;
+
+	font-size: 20px;
+}
+
+.place {
+	display: flex;
+	align-items: flex-start;
+
+	margin: 20px 20px 20px 0;
+
+	font-size: 20px;
+}
+
+a {
+
+	color: #ffffff;
+	text-decoration: none;
+
+
+ }
+
+
+
+.button {
+	height: 50px;
+	widows: 80px;
+
+	background-color: #00B2ED;
+	border-radius: 5%;
+
+	font-size: 20px;
+
+	align-items: center;
+
+}
+
+.footer {
+	height: 50px;
+	width: 100%;
+
+	background-color: #00B2ED;
+	font-size: 20px;
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+
+}
+a:hover {
+    text-decoration: underline;
+ }

@@ -3,16 +3,18 @@
 }
 .main {
   width: 700px;
-  height: 700px;
 
   background: rgb(196, 231, 154);
 
   position: absolute;
+  padding: 20px;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin: 20px 0;
 }
 .logo {
   width: 200px;
@@ -20,14 +22,12 @@
 
   background: rgb(71, 116, 19);
 
-  margin: 25px;
-  margin-top: 30px;
 }
 .menu {
   display: flex;
   align-items: flex-end;
 
-  margin-right: 20px;
+
 }
 .menu-item {
   width: 40px;
@@ -40,27 +40,26 @@
 }
 
  .intro {
-   width: 650px;
+
    height: 350px;
 
    background: rgb(41, 77, 0);
 
    position: relative;
-   left: 25px;
+
 
  }
 .secondary {
-
     display: flex;
     justify-content: space-around;
 
+    margin-top: 20px;
+
  }
 .secondary-item {
-  width: 300px;
   height: 180px;
+  flex-grow: 1;
 
   background: rgb(41, 77, 0);
-
-  margin-top: 20px;
-
+  margin-left: 5px;
 }
