@@ -59,30 +59,6 @@ body {
     width: 200px;
   }
   .items {
-    width: 170px;
-  }
-}
-
-
-@media screen and (max-width: 500px) {
-  .header {
-    width: 70px;
-  }
-  .paragraph {
-    width: 100px;
-  }
-  .items {
-    width: 70px;
-  }
-}
-@media screen and (max-width: 300px) {
-  .header {
-    width: 50px;
-  }
-  .paragraph {
-    width: 70px;
-  }
-  .items {
-    width: 50px;
+    flex-direction: column;
   }
 }
